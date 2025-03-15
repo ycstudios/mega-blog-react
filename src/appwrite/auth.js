@@ -2,18 +2,18 @@
 import config from "../config/config";
 import { Client, Account, ID } from "appwrite";
 
-export class AuthService{
-    clinet = new Client();
+export class AuthService {
+    client = new Client();
     account;
 
-    constructor () {
-        this.clinet
-        .setEndpoint(config.appwriteURL)
-        .setProject(config.appwriteProjectId)
+    constructor() {
+        this.client
+            .setEndpoint(config.appwriteURL)
+            .setProject(config.appwriteProjectId);
 
-        this.account= new Account(this.clinet);
-
+        this.account = new Account(this.client);
     }
+
     async createAccount({ email, password, name }) {
         try {
             const userAccount = await this.account.create(
@@ -47,9 +47,6 @@ export class AuthService{
             throw error;
         }
     }
-    
-
-
 
     async logOut() {
         try {
@@ -58,11 +55,7 @@ export class AuthService{
             throw error;
         }
     }
-    
-    
-    
 }
 
-const authservice= new AuthService();
-
-export default authservice
+const authservice = new AuthService();
+export default authservice;
