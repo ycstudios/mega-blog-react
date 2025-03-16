@@ -1,6 +1,6 @@
 import Select from "./Select";
 import Header from "./header/Header";
-import Footer from "./Footer/Footer";
+import Footer from "./footer/Footer";
 import Container from "./contanier/Contanier";
 import Logo from "./Logo";
 import LogoutBtn from "./header/LogoutBtn";
