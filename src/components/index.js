@@ -3,7 +3,7 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Container from "./contanier/Contanier";
 import Logo from "./Logo";
-import LogoutBtn from "./header/LogoutBtn";
+import LogoutBtn from "./header/Logout";
 import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
