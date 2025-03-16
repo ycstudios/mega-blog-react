@@ -20,6 +20,7 @@ function Home() {
                     <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg text-gray-800">
                         <h1 className="text-4xl font-extrabold mb-4">Welcome to Our Blog</h1>
                         <p className="text-lg">Login to access amazing content and stay updated with the latest posts.</p>
+                        <a href="https://yash-chandanshive.vercel.app/" target='_blank'>Made with ❤️ By Yash Chandanshive</a>
                     </div>
                 </Container>
             </div>

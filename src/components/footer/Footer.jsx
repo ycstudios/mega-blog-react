@@ -11,7 +11,7 @@ function Footer() {
           <div className="space-y-4">
             <Logo width="120px" />
             <p className="text-sm text-gray-400">
-              &copy; 2025 DevUI. All Rights Reserved.
+            <a href="https://yash-chandanshive.vercel.app/" target='_blank'>Made with ❤️ By Yash Chandanshive</a>
             </p>
           </div>
 
